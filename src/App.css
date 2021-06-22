@@ -15,11 +15,25 @@
   margin-bottom: 1em;
 }
 
-.main-form input,
-.main-form,
-.check-group {
+.main-form .input,
+.main-form .check-group {
   display: block;
   font-size: 1em;
   width: 100%;
   margin-bottom: 1em;
+}
+
+.is-invalid {
+  border: 1px solid red;
+  background-color: rgba(255, 143, 123, 0.794);
+}
+
+.err-msg {
+  background-color: tomato;
+  color: snow;
+  border-radius: 0.5em;
+  margin-top: -0.8em;
+  margin-bottom: 1em;
+  padding: 0.2em;
+  font-size: 0.7em;
 }
